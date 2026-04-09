@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div>
@@ -18,15 +21,50 @@
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="projets.html">Projet</a></li>
+                <li><a href="projets.html">Projets</a></li>
                 <li><a href="passions.html">Passions</a></li>
                 <li><a href="divertissement.html">Divertissement</a></li>
                 <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Contactez-nous</h1>
+    <main class="contact-section">
+
+        <!-- Partie gauche -->
+        <div class="contact-left">
+            <h2>Contactez-moi</h2>
+            <p>Je suis basé à <b>Lubumbashi</b>, RD Congo.</p>
+            <div class="phone-row">
+                <span class="phone-icon"></span>
+                <span>+243 835 651 871</span>
+            </div>
+            <div class="btn-group">
+                <button class="btn">
+                    <span class="btn-icon whatsapp"></span>
+                    WhatsApp
+                </button>
+                <button class="btn">
+                    <span class="btn-icon telegram"></span>
+                    Telegram
+                </button>
+            </div>
+        </div>
+
+        <!-- Formulaire de contact -->
+        <div class="contact-right">
+            <div class="form-card">
+                <div class="form-group">
+                    <label for="nom">Nom complet</label>
+                    <input type="text" id="nom" placeholder="Votre nom" />
+                </div>
+                <div class="form-group">
+                    <label for="tel">Téléphone</label>
+                    <input type="text" id="tel" placeholder="Ex: +243..." />
+                </div>
+                <button class="btn-submit">Envoyer</button>
+            </div>
+        </div>
+
     </main>
     <footer>
             <p>&copy; 2026 Nathan. Tous droits reserves.</p>
@@ -36,7 +74,6 @@
         <a href=""><i class= "fa-brands fa-x-twitter"></i></a>
     </div>
     </footer>
-    
 </body>
- 
+
 </html>
