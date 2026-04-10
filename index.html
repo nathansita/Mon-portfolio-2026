@@ -2,91 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <title>mon portfolio</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div>
-            <a href="">Mon Portfolio</a>
+            <a href="">Mon portfolio</a>
         </div>
         <nav>
             <ul>
-                <li><a href="index.html" class="active">Accueil</a></li>
-                <li><a href="projets.html">Projets</a></li>
-                <li><a href="passions.html">Passions</a></li>
+                <li><a href="index.html" class="active">Acceuil</a></li>
+                <li><a href="projets.html">Projet</a></li>
+                <li><a href="passions.html">passions</a></li>
                 <li><a href="divertissement.html">Divertissement</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
+        <section class="hero">
             <div>
-                <h1>Bonjour, je suis Nathan</h1>
-                <p>Etudiant en L2 et passionne par le web</p>
-                <a href=>Voir mes projets</a>
+                <h1>Bonjour je suis Nathan</h1>
+                <p>Etudiant en L2 et passionné par le web</p>
+                <a href="projets.html">Voir mes projet</a>
             </div>
             <div>
-                <img src="image/Nathan.jpeg" alt="">
-            </div>
-        </section>
-        <section>
-            <h2>A propos de moi</h2>
-            <p>Bonjour ! Je m'appelle Nathan Sita et je suis un etudiant dinamique et motive a l'UDBL.
-                Passionne par le devellopement web, l'intelligence artificielle, et le designe graphique, Je suis constament a la recherche de nouvelles opportunites d'apprentissage et de defis stimulants.</p>
-                <p>Au cours de mes etudes, j'ai developpe des solides competences en programmation. je suis une personne rigoureuse, creative et j'aime travailler en equipe pour atteindre des objectifs communs. Mon objectif est de contribuer a des projets innovants, trouver un stage, et maitriser le framework laravel.</p>
 
+                <img src="image/Nathan.jpeg" alt="Nathan" width="300">
+
+            </div>
         </section>
-        <section>
-            <h2>Mes competences</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>CATEGORIE</th>
-                    <th>COMPETENCES</th>
-                    <th>NIVEAU</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Programmation</td>
-                    <td>HTML, CSS, JavaScript</td>
-                    <td>Avance</td>
-                </tr>
-                <tr>
-                    <td>Designe</td>
-                    <td>Figma, Photoshop(bases)</td>
-                    <td>Intermediare</td>
-                </tr>
-                <tr>
-                    <td>Outils</td>
-                    <td>Gits, VS Code, Suite Office</td>
-                    <td>Avance</td>
-                </tr>
-                <tr>
-                    <td>Soft Skills</td>
-                    <td>Communication, Resolution de problemes, Autonomie</td>
-                    <td>Expert</td>
-                </tr>
-            </tbody>
-        </table>
+        
+        <section class="apropos">
+            <div>
+                <h2>A propos De Moi</h2>
+                <p>Bonjour ! Je m’appelle Nathan Sita et je suis un étudiant dynamique et motivé en Informatique à l’UDBL.
+                 Passionné par le développement web, l’intelligence artificielle, et le design graphique, je suis constamment à la
+                 recherche de nouvelles opportunités d’apprentissage et de défis stimulants</p>
+
+                <p>Au cours de mes études, j’ai développé de solides compétences en programmation. Je suis une personne rigoureuse,
+                 créative et j’aime travailler en équipe pour atteindre des objectifs communs. Mon objectif est de contribuer à des
+                 projets innovants, trouver un stage, et maîtriser le Framework Laravel</p>
+            </div>
+        </section>
+        
+        <section class="compétences">
+            <h2>Mes compétences</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>CATEGORIE</th>
+                        <TH>COMPETENCES</TH>
+                        <th>NIVEAU</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                        <td>Programmation</td>
+                        <td>Html, Css, Javascript, Python</td>
+                        <TD>Avancé</TD>
+                    </tr>
+                    <tr>
+                        <td>Desing</td>
+                        <td>Figma, Photoshop(bases)</td>
+                        <td>intermediaire</td>
+                    </tr>
+                    <tr>
+                        <td>Langue</td>
+                        <td>Français (natif), Anglais (fluide)</td>
+                        <td>Avancé</td>
+                    </tr>
+                    <TR>
+                        <td>outil</td>
+                        <td>Git, Vs Code, Suite Office</td>
+                        <td>Avancé</td>
+                    </TR>
+                    <tr>
+                        <td>Soft Skills</td>
+                        <td>Communication, Résolution de problemes, Autonomie</td>
+                        <td>expert</td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
     </main>
     <footer>
-            <p>&copy; 2026 Nathan. Tous droits reserves.</p>
+         <p>&copy; 2026 Nathan Sita. Tous droits réservés.</p>
+        <div>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
         </div>
-        <a href=""><i class= "fa-brands fa-github"></i></a>
-        <a href=""><i class= "fa-brands fa-linkedin"></i></a>
-        <a href=""><i class= "fa-brands fa-x-twitter"></i></a>
-    </div>
     </footer>
-    
 </body>
- 
+
 </html>
+

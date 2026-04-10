@@ -1,42 +1,136 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon portfolio</title>
+    <title>Divertissement – Mon Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
         <div>
-            <a href="">Mon Portfolio</a>
+            <a href="index.html" class="logo">Mon Portfolio</a>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="projets.html">Projets</a></li>
                 <li><a href="passions.html">Passions</a></li>
-                <li><a href="divertissement.html"class="active">Divertissement</a></li>
+                <li><a href="divertissement.html" class="active">Divertissement</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Voici mes divertissements</h1>
-    </main>
-    <footer>
-            <p>&copy; 2026 Nathan. Tous droits reserves.</p>
+
+    <!-- HERO BANNER -->
+    <section class="divert-hero">
+        <div class="hero-text">
+            <h1>Ce qui me fait<br><span>vibrer</span> au quotidien</h1>
+            <p>Entre les sons, le sable et les grands écrans — voici les trois univers dans lesquels je me ressource et me divertis.</p>
         </div>
-        <a href=""><i class= "fa-brands fa-github"></i></a>
-        <a href=""><i class= "fa-brands fa-linkedin"></i></a>
-        <a href=""><i class= "fa-brands fa-x-twitter"></i></a>
-    </div>
+        <div class="hero-pills">
+            <div class="hero-pill"><i class="fa-solid fa-microphone"></i> Podcast</div>
+            <div class="hero-pill"><i class="fa-solid fa-umbrella-beach"></i> Plage</div>
+            <div class="hero-pill"><i class="fa-solid fa-film"></i> Cinéma</div>
+        </div>
+    </section>
+
+    <main>
+        <div class="section-label">
+            <p>Mes divertissements</p>
+            <hr>
+        </div>
+
+        <div class="divert-list">
+
+            <div class="hcard podcast">
+                <div class="hcard-accent"></div>
+                <div class="hcard-icon-box">
+                    <i class="fa-solid fa-microphone hcard-icon"></i>
+                    <span class="hcard-num">01</span>
+                </div>
+                <div class="hcard-content">
+                    <img src="https://i.pinimg.com/1200x/16/35/1b/16351ba934490e73023c1319c3ba9775.jpg" alt="description" style="width:100%; height:200px; object-fit:cover; object-position:center; display:block;">
+                    <h2>Podcast</h2>
+                    <p>Qu'il s'agisse de tech, de développement personnel ou d'entrepreneuriat, les podcasts sont mon compagnon fidèle lors de mes déplacements ou mes moments de repos.</p>
+                    <div class="tags">
+                        <span class="tag">Audio</span>
+                        <span class="tag">Tech</span>
+                        <span class="tag">Inspiration</span>
+                    </div>
+                </div>
+                <div class="hcard-action">
+                    <a href="#" class="action-btn">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>Mes épisodes favoris</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hcard plage">
+                <div class="hcard-accent"></div>
+                <div class="hcard-icon-box">
+                    <i class="fa-solid fa-umbrella-beach hcard-icon"></i>
+                    <span class="hcard-num">02</span>
+                </div>
+                <div class="hcard-content">
+                    <img src="https://i.pinimg.com/1200x/8d/57/59/8d5759cc1a5914884e7566bcc7f139ca.jpg" alt="description" style="width:100%; height:200px; object-fit:cover; object-position:center; display:block;">
+                    <h2>Plage</h2>
+                    <p>Le bruit des vagues, le sable chaud et le soleil sur la peau. La plage est pour moi le lieu idéal pour décrocher, me ressourcer et profiter de l'instant présent.</p>
+                    <div class="tags">
+                        <span class="tag">Détente</span>
+                        <span class="tag">Nature</span>
+                        <span class="tag">Soleil</span>
+                    </div>
+                </div>
+                <div class="hcard-action">
+                    <a href="#" class="action-btn">
+                        <i class="fa-regular fa-image"></i>
+                        <span>Voir les photos</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hcard cinema">
+                <div class="hcard-accent"></div>
+                <div class="hcard-icon-box">
+                    <i class="fa-solid fa-film hcard-icon"></i>
+                    <span class="hcard-num">03</span>
+                </div>
+                <div class="hcard-content">
+                    <img src="https://i.pinimg.com/1200x/d0/d2/a5/d0d2a5365c6de34873d5ae340574a6f6.jpg" alt="description" style="width:100%; height:200px; object-fit:cover; object-position:center; display:block;">
+                    <h2>Cinéma</h2>
+                    <p>S'immerger dans une histoire sur grand écran est une expérience unique. J'affectionne les thrillers psychologiques, la science-fiction et les drames humains forts.</p>
+                    <div class="tags">
+                        <span class="tag">Films</span>
+                        <span class="tag">Thriller</span>
+                        <span class="tag">Sci-Fi</span>
+                    </div>
+                </div>
+                <div class="hcard-action">
+                    <a href="#" class="action-btn">
+                        <i class="fa-solid fa-clapperboard"></i>
+                        <span>Mes coups de cœur</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+   <footer>
+        <p>© 2026 Mario. Tous droits réservés.</p>
+        <div class="reseaux">
+            <a href="#" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" title="X / Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
     </footer>
-    
+
 </body>
- 
 </html>
